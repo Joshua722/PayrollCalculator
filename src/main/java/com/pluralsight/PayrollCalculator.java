@@ -12,7 +12,7 @@ public class PayrollCalculator {
             System.out.print("What is your payrate? ");
             double pay_rate = myScanner.nextDouble();
             double gross_pay = pay_rate * hours;
-            System.out.print("Here is your gross pay : " + user_name , + gross_pay );
+            System.out.print("Here is your gross pay : " + user_name + ", " + gross_pay );
 
     }
 
